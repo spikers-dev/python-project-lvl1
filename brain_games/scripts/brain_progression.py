@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
-"""The scripts start the game 'Brain-even'."""
+"""The scripts start the game 'Brain-progression'."""
 
 from brain_games.engine import engine
-from brain_games.games import even_number
+from brain_games.games import progression
 
 
 def main():
@@ -12,7 +12,7 @@ def main():
     Parameters are missing.
     Returns: None
     """
-    engine(even_number)
+    engine(progression)
 
 
 if __name__ == '__main__':

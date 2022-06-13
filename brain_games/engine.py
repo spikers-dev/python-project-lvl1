@@ -10,8 +10,10 @@ NUMBERS_OF_ROUNDS = 3
 def engine(game):
     """
     Game engine.
+
     Parameters:
     game: module of the game
+
     Returns: None
     """
     print('Welcome to the Brain Games!')
@@ -36,10 +38,12 @@ def engine(game):
 def game_over(answer_user, correct_answer, name_user):
     """
     Show that the user's answer is incorrect and offers to play again.
+
     Parameters:
         answer_user: str or int
         correct_answer: str or int
         name_user: str
+
     Returns: None
     """
     print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(answer_user, correct_answer))  # noqa: E501

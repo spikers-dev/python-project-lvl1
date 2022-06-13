@@ -1,3 +1,4 @@
+
 """Functions of the game 'Brain-even'."""
 
 from random import randint
@@ -8,7 +9,9 @@ GAME_RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 def get_task_and_solution():
     """
     Get an integer(task) and correct answer/
+
     Parameters are missing.
+
     Returns:
         tuple: (int, str)
     """

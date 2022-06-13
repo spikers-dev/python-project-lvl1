@@ -1,18 +1,20 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
-"""The scripts start the game 'Brain-even'."""
+"""The scripts start the game 'Brain-prime'"""
 
 from brain_games.engine import engine
-from brain_games.games import even_number
+from brain_games.games import prime_number
 
 
 def main():
     """
     Program start.
+
     Parameters are missing.
+
     Returns: None
     """
-    engine(even_number)
+    engine(prime_number)
 
 
 if __name__ == '__main__':
